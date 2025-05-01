@@ -2,29 +2,12 @@
 
 
 const prompt = require('prompt-sync')();
+let n = Number(prompt('Digite um número inteiro: '));
 
-console.log('========================================================');
-console.log('||               ATIVIDADE 01 - PAR OU ÍMPAR          ||');
-console.log('========================================================');
-console.log('||                Verifique se um número é            ||');
-console.log('||                   PAR ou ÍMPAR                     ||');
-console.log('========================================================');
-
-let continua = 'S';
-do {
-    let n1 = Number(prompt('Digite um numero: '));
-
-    if (n1 % 2 == 0) {
-        console.log('O número ' + n1 + ' é par!');
-    } else {
-        console.log('O número ' + n1 + ' é ímpar!');
-    }
-    continua = String(prompt('Deseja continuar? (S/N): '))
-
-    if(continua != 'S' && continua != 'N' && continua != 's' && continua != 'n') {
-        console.log('Opção inválida!');
-        continua = String(prompt('Deseja continuar? (S/N): '))
-    }
-
-
-} while (continua != 'N' && continua != 'n'); 
+if (n % 2 == 0) {
+    console.log(`O número ${n} é par.`);
+    
+}else {
+    console.log(`O número ${n} é ímpar.`);
+    
+}
