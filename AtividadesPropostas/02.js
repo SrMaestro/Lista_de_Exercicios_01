@@ -2,7 +2,7 @@
 
 const prompt = require('prompt-sync')();
 console.log('========================================================');
-console.log('||           🌟 ATIVIDADE 01 - CLASSIFICAR IDADE 🌟  ||');
+console.log('||           🌟 ATIVIDADE 02 - CLASSIFICAR IDADE 🌟  ||');
 console.log('========================================================');
 console.log('||                Descubra sua categoria              ||');
 console.log('||                   com base na idade                ||');

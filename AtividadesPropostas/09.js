@@ -1,16 +1,6 @@
-const prompt = require('prompt-sync')();
+// Implemente um programa que exibe uma contagem regressiva de 10 até 1 no console utilizando um loop for.
 
-const a = parseFloat(prompt('Digite o valor do lado A: '));
-const b = parseFloat(prompt('Digite o valor do lado B: '));
 
-if (a === b){
-    console.log('Os valores sao iguais!');
-    
-
-}else if (a > b){
-    console.log(`${b} ---> ${a}`);
-    
-}else{
-    console.log(`${a} ---> ${b}`);
-    
+for (let i = 10; i > 0; i--) {
+    console.log(i);
 }
