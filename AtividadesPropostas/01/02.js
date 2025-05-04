@@ -24,7 +24,7 @@ if (idade >= 0 && idade <= 12) {
     console.log('Você é um idoso!');
 }
 else {
-    console.log('opcao inválida!');
+    
     console.log('Idade inválida!');
     
 }

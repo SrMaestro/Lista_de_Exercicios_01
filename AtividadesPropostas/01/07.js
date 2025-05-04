@@ -1,6 +1,6 @@
 const prompt = require('prompt-sync')();
 
-let maca = prompt('Quantas maçãs você comprou? ');
+let maca = Number(prompt('Quantas maçãs você comprou? '));
 let preco = 0.30;
 
 if (maca >= 12) {
