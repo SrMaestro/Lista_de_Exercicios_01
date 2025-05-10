@@ -1,6 +1,6 @@
 # 📝 Lista de Exercícios 1 - Estudando as estruturas básicas. +PraTi & Codifica Edu
 
-Este projeto contém 15 exercícios escritos em JavaScript com Node.js, numerados de `ex01.js` até `ex15.js`.
+Este projeto contém 15 exercícios escritos em JavaScript com Node.js, numerados de `ex01.js` até `ex15.js`. Voce pode localizados dentro da pasta atividadesProposta 01
 
 ## 📋 Pré-requisitos
 
