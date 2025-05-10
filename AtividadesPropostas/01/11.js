@@ -21,3 +21,4 @@ for (let i = 0; i < numeros.length; i++) {
 }
 
 console.log(`A soma dos números digitados é ${soma}`);
+

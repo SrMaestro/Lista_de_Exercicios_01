@@ -1,6 +1,7 @@
 const prompt = require('prompt-sync')();
 let array = []
 let soma 
+let media
 
 do {
     let n = Number(prompt('Digite um numero'))
@@ -32,3 +33,8 @@ for (let i = 1; i < array.length; i++) {
 }
 
 console.log('O menor valor é:', menorValor);
+
+//mostra media
+media = soma / array.length
+console.log(media.toFixed(2));
+

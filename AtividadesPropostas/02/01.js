@@ -10,7 +10,3 @@ let tempoEmDias = (tempoDeEmMinutosDeCigarrosFumados / 1440);
 
 
 console.log(`Você fumou ${cigarrosFumados} cigarros, o que equivale a ${tempoEmDias.toFixed(2)} dias de vida perdidos.`); 
-
-
-
-
